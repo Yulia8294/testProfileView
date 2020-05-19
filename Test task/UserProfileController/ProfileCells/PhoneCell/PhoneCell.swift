@@ -22,6 +22,6 @@ class PhoneCell: UITableViewCell {
     
     override func layoutSubviews() {
           super.layoutSubviews()
-          separatorInset.left = titleLabel.bounds.width + 30
+          separatorInset.left = titleLabel.bounds.width + 25
     }
 }
