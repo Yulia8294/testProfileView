@@ -55,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A333D1A92474570E002D3928 /* ProfileTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1F9DB24742823002FC704 /* ProfileTableView.swift */,
+				A3C1F9D324742495002FC704 /* ProfileHeaderView */,
+				A3C1F9D024742313002FC704 /* ProfileCells */,
+			);
+			path = ProfileTableView;
+			sourceTree = "<group>";
+		};
 		A3C1F9AE247420C4002FC704 = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +86,7 @@
 			children = (
 				A3C1F9BA247420C4002FC704 /* AppDelegate.swift */,
 				A3C1F9D824742693002FC704 /* Model */,
-				A3C1F9DF247428BE002FC704 /* UserProfileController */,
+				A3C1F9DF247428BE002FC704 /* UserProfile */,
 				A3C1F9C3247420C6002FC704 /* Assets.xcassets */,
 				A3C1F9C5247420C6002FC704 /* LaunchScreen.storyboard */,
 				A3C1F9C8247420C6002FC704 /* Info.plist */,
@@ -112,16 +122,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		A3C1F9DF247428BE002FC704 /* UserProfileController */ = {
+		A3C1F9DF247428BE002FC704 /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
+				A333D1A92474570E002D3928 /* ProfileTableView */,
 				A3C1F9C0247420C4002FC704 /* Profile.storyboard */,
 				A3C1F9BE247420C4002FC704 /* ProfileViewController.swift */,
-				A3C1F9DB24742823002FC704 /* ProfileTableView.swift */,
-				A3C1F9D324742495002FC704 /* ProfileHeaderView */,
-				A3C1F9D024742313002FC704 /* ProfileCells */,
 			);
-			path = UserProfileController;
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
 		A3C1F9E6247441A8002FC704 /* BaseCell */ = {
